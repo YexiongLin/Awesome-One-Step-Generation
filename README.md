@@ -19,8 +19,6 @@
 
 Fast-sampling research has historically been catalogued either by application (text-to-image, super-resolution, video) or by a coarse *native vs. distillation* dichotomy. Both axes obscure the deeper question: **what mathematical mechanism actually collapses an iterative sampler into one step?** This list answers that question by grouping methods according to their *primary theoretical contribution*.
 
-This taxonomy is grounded in recent unifying literature. **Uni-Instruct** (NeurIPS 2025) shows that a large family of one-step diffusion methods — DMD, SiD, Diff-Instruct, score-based and variational approaches — are all special cases of **diffusion divergence minimization**, differing only in the choice of divergence. This motivates our dedicated *Distribution Divergence Minimization* category with sub-axes for Forward KL, Reverse KL, Fisher divergence, and variational bounds. **One Step Diffusion via Shortcut Models** (ICLR 2025 Oral) explicitly frames direct noise-to-data mapping as a distinct paradigm separate from trajectory-based reasoning, justifying the *Shortcut / Direct Mapping* category. And **iCT** (ICLR 2024) demonstrates that consistency *training* (CT) and consistency *distillation* (CD) are two regimes of one principle — self-consistency along the PF-ODE — motivating our native/distillation split *inside* each principle rather than across the whole list.
-
 We classify each paper by its **primary contribution**. Many works combine several principles (e.g. adversarial losses layered on score distillation); cross-references are added where a method materially spans categories. Within every category, entries are ordered chronologically (oldest → newest) so the conceptual lineage is easy to follow.
 
 | Legend | Meaning |
