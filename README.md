@@ -15,7 +15,7 @@
 
 ## 🧭 Classification Rationale
 
-Instead of the usual *native vs. distillation* split, we group methods by **the core mathematical principle that collapses iterative sampling into one step**. Each paper is placed by its *primary contribution*, with cross-references for works that span multiple principles. Within each principle, we further mark 🟢 native / 🔵 distillation / 🟡 hybrid variants.
+Instead of the usual *native vs. distillation* split, we group methods by **the core mathematical principle that collapses iterative sampling into one step**. Each paper is placed by its *primary contribution*, with cross-references for works that span multiple principles.
 
 | Legend | Meaning |
 |:------:|---------|
