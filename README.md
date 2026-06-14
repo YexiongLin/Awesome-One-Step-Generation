@@ -136,6 +136,10 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://arxiv.org/abs/2505.13447)] [[Code](https://github.com/haidog-yaqub/MeanFlow)]  
   Native one-step generation via mean-velocity-field properties; trains from scratch.
 
+- **One-step Latent-free Image Generation with Pixel Mean Flows (pMF)** [2026] 🟢  
+  [[Paper](https://arxiv.org/abs/2601.22158)]  
+  Latent-free one-step generation in pixel space; decouples output space from loss space, reaching 2.22 FID on ImageNet 256×256 and 2.48 FID on 512×512.
+
 
 
 - **SoFlow: Solution Flow Models for One-Step Generative Modeling** [ICLR 2026] 🟢  
@@ -444,9 +448,11 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 |------|-------|-------|:----:|:--------:|------|
 | 2026.05 | FlowSR: Fast Image SR via Consistency Rectified Flow | ICCV 2025 | 🟢 | APP | [[Paper](https://arxiv.org/abs/2605.12377)] |
 | 2026.03 | Gradient Flow Drifting: Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.10592)] |
+| 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.03 | Generative Drifting is Secretly Score Matching: a Spectral and Variational Perspective | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.09936)] |
 | 2026.03 | SoFlow: Solution Flow Models for One-Step Generative Modeling | ICLR 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2512.15657)] [[Code](https://github.com/zlab-princeton/SoFlow)] |
 | 2026.02 | Generative Modeling via Drifting | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2602.04770)] [[Code](https://github.com/lambertae/drifting)] |
+| 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.01 | DiffRatio: Training One-Step Diffusion Models Without Teacher Supervision | ICLR 2025 | 🟢 | DDM | [[Paper](https://arxiv.org/abs/2502.08005)] [[Code](https://github.com/Wenlin-Chen/DiffRatio)] |
 | 2025.12 | High-Order Flow Matching: Unified Framework | NeurIPS 2025 | — | TH | [[Paper](https://openreview.net/forum?id=ib0aV2hphN)] |
 | 2025.12 | TwinFlow: One-step Generation with Self-adversarial Flows | ICLR 2026 | 🟢 | ADV | [[Paper](https://arxiv.org/abs/2512.05150)] [[Code](https://github.com/inclusionAI/TwinFlow)] |
