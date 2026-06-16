@@ -154,6 +154,14 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Ma_Learning_Straight_Flows_Variational_Flow_Matching_for_Efficient_Generation_CVPR_2026_paper.pdf)]  
   Learning straight flows via variational latent codes integrated with the flow-matching objective.
 
+- **Beyond Optimal Transport: Model-Aligned Coupling for Flow Matching (MAC)** [CVPR 2026 Findings] 🟢  
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2026F/html/Lin_Beyond_Optimal_Transport_Model-Aligned_Coupling_for_Flow_Matching_CVPRF_2026_paper.html)]
+  Model-aligned coupling selects learnable source-target pairs to improve one-step/few-step flow matching generation.
+
+- **SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation** [arXiv 2026] 🟢  
+  [[Paper](https://arxiv.org/abs/2604.12273)]
+  Sub-mode conditioning reduces averaging distortion and improves diversity in one-step flow matching.
+
 ### Distillation (🔵)
 
 > **Progressive Distillation** is catalogued under [Related Resources → Foundational Works](#foundational-works) as it is a general step-compression method rather than a one-step-specific technique. It is cross-referenced here as it inspired much of the flow-distillation lineage.
